@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "belajar-nodejs-express",
   "version": "1.0.0",
   "description": "Belajar NodeJS express",
@@ -26,10 +27,20 @@
       "src/**/*.{js,jsx}",
       "!vendor/**/*.{js,jsx}"
     ]
+=======
+  "name": "belajar-nodejs-unit-test",
+  "version": "1.0.0",
+  "description": "Belajar NodeJS Unit Test",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+>>>>>>> eb9cecf (new)
   },
   "author": "Eko Kurniawan Khannedy",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "cookie-parser": "1.4.6",
     "express": "4.18.1",
     "express-fileupload": "^1.5.1",
@@ -44,5 +55,16 @@
     "babel-jest": "^28.1.0",
     "jest": "^28.1.3",
     "supertest": "6.2.4"
+=======
+    "mustache": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0",
+    "@types/jest": "^28.1.0",
+    "@types/mustache": "^4.2.0"
+>>>>>>> eb9cecf (new)
   }
 }

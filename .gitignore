@@ -1,4 +1,7 @@
 .idea
 coverage
 node_modules
+<<<<<<< HEAD
 *.log
+=======
+>>>>>>> eb9cecf (new)
